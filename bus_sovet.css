@@ -1,0 +1,59 @@
+		h1 {line-height: 1.3}
+	  	.text {max-width: 650px; margin: 0 auto; line-height: 1.6;padding-left: 10px;}
+	  	.read-too {display: none;}
+	  	.mooore_text {display: none;}
+	  	.text h2 {text-align: center; margin: 40px 0px;}
+	  	.prime {max-width: 623px; margin: 0 auto; }
+	  	.prime_text, .prime_img {display: inline-block; vertical-align: middle;}
+	  	.prime_text {max-width: 300px;}
+	  	.prime_img {margin-left:2%;}
+	  	.prime_img img {max-width: 300px;}
+	  	.ministries {max-width: 940px; margin: 0 auto;color: black;}
+	  	.ministries a {text-decoration: none; color: black;}
+	  	.ministry {display: inline-block; border: 1px solid #104d8247; padding: 10px; width: 295px; margin-top: 5px; position: relative; height: 95px;border-radius: 5px;}
+	  	.ministry:hover { background-color: #104d8247; cursor: pointer;}
+	  	.ministry_text, .ministry_img {display: inline-block;vertical-align: top;margin-top: -11px;}
+	  	.ministry_text {margin-top: -20px;}
+	  	.ministry_text .para {width: 180px; margin-top: -20px;font-size: 14px;line-height: 1.2;}
+	  	.ministry_img {position: absolute; right: 5px;top: 16px;max-width: 80px;}
+	  	.ministry_img img {max-width: 80px;display: block;}
+	  	.persons {max-width: 650px; margin: 0 auto;color: black;}
+	  	.person {border: 1px solid #104d8247; margin-top: 20px; border-radius: 5px;}
+	  	.person_img, .person_name {display: inline-block; vertical-align: top;}
+	  	.person_name {    max-width: 200px;}
+	  	.person_name p {margin-top: -15px;}
+	  	.person_img {padding: 10px; margin-left: 15px;max-width: 80px;}
+	  	.person_img img {max-width: 80px; display: block}
+	  	.bio p, .bio h3 {padding: 0px 15px;}
+	  	.butttton {
+		  background-color: #e90c29;
+		  border: none;
+		  color: white;
+		  padding: 7px 7px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 14px;
+		  border-radius: 3px;
+		  margin-left: 28px;
+    	margin-bottom: 10px;
+		}
+		@media (max-width: 1023px){
+	  		.butttton {margin-left: 15px;}
+	  	}
+	  	@media (max-width: 1000px){
+	  		.ministries {max-width: 740px}
+	  		.ministry {width: 367px;}
+	  	}
+	  	@media (max-width: 759px){
+	  		.prime_img img {max-width: 200px;}
+	  		.prime_img {margin-left:3%;}
+	  	}
+	  	@media (max-width: 693px){
+	  		.ministries {max-width: 631px;}
+	  		.ministry {width: 313px;}
+	  	}
+	  	@media (max-width: 651px){
+	  		.ministries {max-width: 630px;}
+	  		.ministry {width: 100%;}
+	  	}

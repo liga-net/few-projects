@@ -1,0 +1,90 @@
+.full_body h1 {line-height: 1.3}
+.full_body {max-width: 600px; margin: 0 auto;line-height: 1.6;}
+    #start_block{
+		font-family: 'Roboto';
+		max-width: 600px;
+		height: 100%;
+		margin: 0 auto;
+			font-size: 20px;
+		}
+		#start_block div {
+			display: inline-block;
+			width: 28%;
+			height: 75px;
+			background-color: #fafafa;
+			border: 1px solid #d2d2d2;
+			cursor: pointer;
+            font-size: 1em;
+            margin-bottom: 0px;
+            margin-left: 5px;
+			text-align: center;
+			vertical-align: top;
+        }
+        .first_narush {margin-left: 0px!important;}
+		#start_block a {color: #042964;}
+		#start_block {margin-top: 10px;margin-bottom: 10px;}
+		#start_block div:hover {opacity: 0.8;}
+		#start_block div:nth-child(2){vertical-align: top;}
+		#start_block:first-child a{width: 150px;}
+        #start_block:last-child a{width: 200px;}
+
+        #yavka_bar,#bullet_bar {
+            font-family: 'Roboto';
+            width: 50%; 
+            left: 10px;
+            position: absolute;
+            background-color: #f2f0f0;
+            font-size: 0.66em;
+		}
+		#yavka_bar #yavk_bar, #bul_bar {
+		    height: 22px;
+		    background-color: #d54a46;
+        }
+        
+        .narush01 {position: relative;}
+        
+        #narush1 {font-size: 16px; font-weight: 500;position: absolute;right: 10px;top: 22px; color: #042964;}
+
+        #sections_yavka {position: relative;}
+        #yavka1, #bullet1 {right: 10px;position: absolute; top: -15px;font-size: 16px; font-weight: 400;color: #042964;}
+        #bullet1 {top: 22px;}
+
+        #bullet1_2, #yavka1_2, .narush_1_2 {font-size: 0.6em; color: black;text-align: left; padding-left: 10px;}
+
+        .narush_1_2 {text-align: left;width: 150px;}
+        #narushtop {position: absolute; top: 30px; left: 1px;}
+
+        .block {font-size: 1em; color: #042964;text-align: left; padding-left: 10px;position: absolute; top: -6px;}
+        @media (max-width: 999px) {
+            #start_block div {
+                display: block;
+                width: 100%;
+                padding-top: 0px;
+                margin-top:10px;
+                margin-left: 0px
+            }
+            #yavka_bar {width: 80%;}
+            #yavka1 {top: -30px;}
+            #yavka1_2 {font-size: 0.7em;}
+            #sections_yavka {margin-top: -5px;}
+            .narush01 .narush_1_2 {font-size: 0.7em; width: 210px;}
+            .narush01 #yavka_1_2 {margin-top: 15px;padding-right: 115px;}
+            .narush_1_2 {width: 220px;vertical-align: top; padding-top: 0px;}
+            #narush1{top:10px;}
+            .first_narush {margin-top: 0px;}
+        }
+    .selection {cursor:pointer;color:black;font-size: 17px; margin: 0 auto; max-width: 200px;}
+    .selection select {width: 200px; background-color:white; font-size: 17px; padding: 4px;border: 1px solid #eeeeee}
+    .table_mer {max-width: 600px; margin: 0 auto;}
+    .council {border-collapse: collapse; width: 100%;}
+    .council tr{border-bottom: 1px solid #d1d1d1;}
+    .council th, .council td { padding: 5px 10px; font-size: 16px; text-align: right;}
+    .council th, .council td:first-child{padding-left: 0px;}
+    .council td:first-child{text-align: left; width: 40%;}
+    .council .number {width: 10%;}
+    .council .barline{width: 20%;}
+    .council tr:first-child td{font-weight: bold;font-size: 12px; padding-top: 0px}
+    .table_button {width: 100%;}
+    .table_button .button {width: 100%;margin: 0 auto; background-color: white; border: none; color: black;padding: 10px 15px;text-align: center;text-decoration: none;font-size: 14px; border-bottom: 1px solid #d1d1d1;}
+    .table_button .button:hover{cursor: pointer;background-color: #d1d1d1; }
+    #kyiv_map, #kharkiv_map, #dnipro_map, #odesa_map, #lviv_map {max-width: 600px; margin: 0 auto;}

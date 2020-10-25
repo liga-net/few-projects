@@ -1,0 +1,150 @@
+#start_block{
+    font-family: 'Roboto';
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#start_block div {
+    display: inline-block;
+    width: 33%;
+    height: 75px;
+    background-color: #fafafa;
+    border: 1px solid #d2d2d2;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.first_narush {margin-left: 0px!important;}
+#start_block a {color: #042964;}
+#start_block {margin-top: 10px;margin-bottom: 10px;}
+#start_block div:hover {opacity: 0.8;}
+#start_block div:nth-child(2){vertical-align: top;}
+#start_block:first-child a{width: 150px;}
+#start_block:last-child a{width: 200px;}
+
+#yavka_bar {
+    font-family: 'Roboto';
+    width: 180px; 
+    left: 10px;
+    position: absolute;
+    background-color: #f2f0f0;
+    font-size: 0.66em;
+}
+#yavka_bar #bar {
+    height: 22px;
+    background-color: #d54a46;
+}
+
+.narush01 {position: relative;}
+#narush1 {font-size: 1.35em; font-weight: 500;position: absolute;right: 10px;top: 11px; color: #042964;}
+
+#sections_yavka {position: relative;}
+#yavka1 {right: 10px;position: absolute; top: -31px;font-size: 1.3em; font-weight: 400;color: #042964;}
+
+#yavka1_2, .narush_1_2 {font-size: 0.6em; color: black;text-align: left; padding-left: 10px;}
+#yavka1_2 {margin-bottom: 0px;}
+.narush_1_2 {text-align: left;width: 150px;}
+#narushtop {position: absolute; top: 30px; left: 1px;}
+
+.block {font-size: 1em; color: #042964;text-align: left; padding-left: 10px;position: absolute; top: -6px;}
+@media (max-width: 999px) {
+    #start_block div {
+        display: block;
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .first_narush {margin-top: 0px!important;}
+    #yavka_bar {width: 80%;}
+    #yavka1 {top: -30px;}
+    #yavka1_2 {font-size: 0.7em;}
+    #sections_yavka {margin-top: -5px;}
+    .narush01 .narush_1_2 {font-size: 0.7em; width: 210px;}
+    .narush01 #yavka_1_2 {margin-top: 15px;padding-right: 115px;}
+    .narush_1_2 {width: 220px;vertical-align: top; padding-top: 0px;}
+    #narush1{top:10px;}
+}
+
+#full {margin-bottom: 20px; font-family: 'Roboto';max-width: 1260px; margin: 0 auto;position: relative;margin-bottom: 30px;}
+#dashboard, #showmap {display: inline-block;vertical-align: top; }
+#showmap{position: absolute;right: 0;}
+#dashboard_title { margin-bottom: 5px; font-weight: bold;}
+#dashboard_local {font-size: 28px;}
+#bullet, #yavk {font-size: 12px; vertical-align: top;}
+.selection ,#bullet_text {cursor:pointer;color:black;font-size: 17px; margin-top: 7px}
+.selection select {background-color:white; font-size: 17px; padding: 4px; border: 1px solid #eeeeee}
+#candidates_results {max-width: 100%; color: white; text-align: center;}
+#dashboard #mer {margin-left: 130px;}
+#table_results table,#dashboard table {border-collapse: collapse;}
+#mer th, #mer td {padding: 2px 8px 0px 0px; font-size: 12px; text-align: left;}
+#cand_img th,#cand_img td {padding: 0px;}
+.candidate_name {width: 85px; text-align: left; font-size: 12px; line-height: 1.4;}
+.candidate_img img {max-width: 60px; }
+#mer .tdleft {font-size: 12px; font-weight: bold;}
+#mer .table_title {margin-bottom: 5px;}
+
+
+#table_results{display: inline-block; margin-left: 6%; position: relative;vertical-align: bottom; }
+.table_title {font-size: 12px; font-weight: bold; padding: 0px;margin-top: 0px;text-align: left;}
+.council th, .council td { padding: 5px 5px; font-size: 12px; text-align: right;}
+.council tr{border-bottom: 1px solid #d1d1d1;}
+.council td:first-child{padding-left: 0px; width: 55%;}
+.council td:last-child{padding-left: 0px; width: 30%;}
+
+
+.exit {color:#7c7c7c;}
+#table_results .council td:first-child{text-align: left;}
+#table_results .council tr:first-child td{font-weight: bold;font-size: 12px; padding-top: 0px}
+
+#button {position: absolute;left: 0;border-radius: 4px; margin-top: 15px; font-size: 12px; }
+#button a{color: #858585; text-decoration: none; border-bottom: 1px solid #858585;}
+#button a:hover{cursor: pointer; color: #00123f;}
+.cities_button {background-color: #858585; color:white; text-decoration: none; border: 0px; border-radius: 3px; padding: 5px 10px; margin: 0px 3px}
+.cities_button:first-child{margin-left: 0px;}
+.cities_button:hover {cursor: pointer;}
+@media (max-width: 1280px) {
+    #dashboard #mer {margin-left: 70px;}
+}
+@media (max-width: 1300px) {
+    #showmap{display: none;} 
+    #dashboard #mer {margin-left: 70px!important;}
+}
+@media (max-width: 1030px) {
+    #table_results {margin-left: 10px;}
+    .council td:first-child{width: 70%;}
+}
+@media (max-width: 999px) {
+    #dashboard #mer, #dashboard_part1 {display: inline-block; vertical-align: top;}
+    #full {margin-bottom: 95px;}
+    #mer .pn:last-child, #mer .tdblock:last-child {display: none;}
+    #mer .tdblock:last-child {display: table-cell;}
+    #dashboard_local {font-size: 21px}
+    .selection {font-size: 15px;}
+    .selection select {font-size: 15px;}
+    #mer th, #mer td { padding: 5px 5px; font-size: 12px; }
+    #mer tr{border-bottom: 1px solid #d1d1d1;}
+    #mer td:first-child{padding-left: 0px; width: 55%;}
+    #mer td:last-child{padding-left: 0px; width: 30%;text-align: right;}
+    .council {display: none;}
+    #dashboard #mer {margin-top: 0px; position: absolute; right: 0; }
+}
+@media (max-width: 525px) {
+    #full {margin-bottom: 50px;}
+    #dashboard_local {font-size: 19px; margin-top: 5px;}
+    .selection,.selection select, #bullet_text {font-size: 12px}
+    #dashboard #mer {position: relative!important;width: 100%;margin-left: 0px!important;display: table!important;margin-top: 10px;}
+    #cand_img {display: none;}
+    #dashboard #mer td:first-child{width: 53%;}
+    #table_results .council {display: table;position: relative;right: 0;margin-left: 0px;}
+    #table_results {display: block; margin-left: 0px;}
+    #dashboard #mer {display: table;}
+    #table_results table {width: 100%;margin-top: 20px;}
+    #table_results tr {border-bottom: 1px solid #d1d1d1;}
+    #dashboard {width: 100%;}
+    #button {margin-top: 10px!important}
+}

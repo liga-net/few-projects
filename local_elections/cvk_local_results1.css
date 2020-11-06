@@ -1,0 +1,24 @@
+.full_body h1 {line-height: 1.3}
+.full_body {max-width: 600px; margin: 0 auto;line-height: 1.6;}
+.full_body {padding-left: 10px;padding-right: 10px;}
+    #oblasni_map .district:hover,#rayon_map .district:hover {stroke:black; stroke-width: 2px;}
+    #mers_map .dot:hover ,#miski_rada_map .dot:hover {stroke:black; stroke-width: 2px;}
+    .tablebutton {background-color: #e90c29; border: none;color: white;padding:7px 16px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+    .tablebutton:hover {cursor: pointer;}
+    .buttons .tablebutton {margin-left: 5px; background-color: #cecece; color: black}
+    .tablecoro {border-collapse: collapse;max-width: 600px;margin: 0 auto; overflow-x: auto;}
+    tr {color: black;text-align: right;font-family: 'Roboto';}
+    tr:first-child {color: black; background-color: #f2f0f0;}
+    td, th { padding: 8px; padding: .5rem;border-bottom: 1px solid #eeeeee;font-size: 1rem;}
+    .tablecoro  tr {height: 46px;}
+    .tablecoro tr:first-child {height: 18px;}
+    .tablecoro  td:nth-child(0){text-align: left; width: 100%;}
+    .tablecoro  td:nth-child(1){text-align: left;width: 100%;}
+    .tablecoro tr:first-child {color: black;}
+    #tablecoro1 .tablerow1 {display: none;}
+    #tablecoro2 .tablerow2 {display: none;}
+    #tablecoro3 .tablerow3{display: none;}
+    .tablebutton {background-color: #e90c29; border: none;color: white;padding:7px 16px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+    .tablebutton:hover {cursor: pointer;}
+    .buttons .tablebutton {margin-left: 5px; background-color: #cecece; color: black}
+    .tablebutton {background-color: #e90c29;border: none;color: white;padding:7px 16px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}

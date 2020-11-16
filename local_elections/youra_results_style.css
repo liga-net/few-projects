@@ -1,0 +1,4 @@
+#oblasni_map .district:hover,#rayon_map .district:hover {stroke:black; stroke-width: 2px;}
+#mers_map .dot:hover ,#miski_rada_map .dot:hover {opacity:.5; stroke-width: 13px;}
+.kyiv {max-width: 600px; text-align: right; margin-top: -40px;}
+.kyiv img{max-width: 100px!important;}

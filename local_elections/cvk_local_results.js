@@ -10,7 +10,7 @@ else {
 }
 function getData(id){
     var value = $.ajax({ 
-        url: 'https://cdn.jsdelivr.net/gh/liga-net/few-projects@1611/local_elections/'+id+'.json', 
+        url: 'https://cdn.jsdelivr.net/gh/liga-net/few-projects@1811/local_elections/'+id+'.json', 
         async: false
     }).responseJSON;
     return value;

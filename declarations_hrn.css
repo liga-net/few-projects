@@ -1,0 +1,25 @@
+.tooltipBubbleNEW {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 0px 10px;
+    margin-top: -10px;
+    font: 12px sans-serif;
+    background: #f5f5f5;
+    pointer-events: none;
+    }
+    .trends {max-width: 600px; margin: 0 auto;}
+    .trends div {display: inline-block; }
+
+    .fancy_table{overflow-x: auto; margin-top: 20px; font-family: 'Arial';max-width: 600px;margin: 0 auto;}
+    .fancy_table table {font-size: 14px!important;}
+    .fancy_table td {height: 55px!important; position: relative!important; vertical-align: bottom!important;text-align: center!important;padding: 0px!important;} /* padding: 5px 20px 45px 0px; e41a1c */
+    .fancy_table tr:first-child {border-bottom: 2px solid black;font-weight: bold;text-align: center;}
+    .fancy_table tr:nth-child(even) {background-color: white!important}
+    .fancy_table tr:nth-child(odd) {background-color: white!important}
+    .fancy_table .left {text-align: left!important;vertical-align: middle!important;padding: 0px!important;}
+    /* .fancy_table tr {border-bottom: 1px solid #f5f5f5; font-size: 12px;} */
+    .number {vertical-align: bottom!important;text-align: center!important;position: absolute!important;top: 42%!important;color: black;left: 34%!important;}
+    .bar { background-color: #377eb8; width: 85%!important; margin: 0 auto!important;}
+    .fancy_table .position_name {font-size: 10px; text-align: center; height: 20px!important;vertical-align: middle!important; color: #bdbdbd}
+    .ft2 .number{left: 28%!important;}

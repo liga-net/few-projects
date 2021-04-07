@@ -1,0 +1,12 @@
+.comparisson {max-width: 600px; margin: 0 auto; line-height: 1.6;}
+.comparisson div {display: inline-block; width: 290px; background-color: white; vertical-align: top;margin-bottom: 20px;}
+.second_part {margin-left: 10px}
+@media (max-width: 600px) {
+    .second_part {margin-left: 0px}
+}
+.first_part_color {background-color: rgba(36,143,181,0.45); padding: 2px 2px 2px 2px;color: black;}
+.second_part_color {background-color: rgba(27,146,138,0.45);padding: 2px 2px 2px 2px;color: black;}
+button#sh_show_button {
+    border: 1px solid #cecece;
+    font-size: 16px;
+}

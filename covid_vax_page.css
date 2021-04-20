@@ -1,0 +1,11 @@
+.covid_vax_page {max-width: 600px; margin: 0 auto;}
+    .covid_vax_page h4 {text-align: center;}
+    .every_day:hover {fill: black}
+    .fancy_table{overflow-x: auto; margin-top: 20px; font-family: 'Arial';max-width: 600px;margin: 0 auto;}
+    .fancy_table table {width: 100%; border-collapse: collapse; font-size: 16px;}
+    .fancy_table tr:first-child {font-size: 12px!important;border-bottom: 2px solid #eeeeee;}
+    .fancy_table td {height: 35px; text-align: right;} /* padding: 5px 20px 45px 0px; e41a1c */
+    .fancy_table tr{border-bottom: 2px solid #fafafa;}
+    .fancy_table .left {text-align: left;vertical-align: middle;font-weight: bold;}
+    .death_region {max-width: 600px;}
+    .death_region div {display: inline; width: 190px;}

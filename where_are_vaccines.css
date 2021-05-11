@@ -1,0 +1,8 @@
+.fancy_table{overflow-x: auto; margin-top: 20px; font-family: 'Arial';max-width: 600px; margin: 0 auto;}
+    .fancy_table table {border-collapse: collapse;width: 100%;font-size: 12px;}
+    .fancy_table td, .fancy_table th {border-bottom: 1px solid #F0F0F0;text-align: left;padding: 8px;}
+    .fancy_table tr:nth-child(even) {background-color: #F9F9F9;}
+    .fancy_table tbody {display:block;overflow: auto;height: 400px;}
+    .fancy_table thead {display: table;width: 100%;table-layout: fixed;}
+    #regions .region {display: inline-block; vertical-align: top; margin-top: 30px;}
+    #vacc_table input {width: 50%; margin-bottom: 20px; border-radius: 4px;height: 25px;border: 3px solid #bdbdbd;}

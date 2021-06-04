@@ -1,0 +1,11 @@
+.fancy_table{overflow-x: auto; margin-top: 20px; font-family: 'Arial'}
+    .fancy_table table {max-width: 800px;margin: 0 auto; border-collapse: collapse; font-size: 12px; width: 100%;table-layout: auto;}
+    .fancy_table td {padding: 5px 20px 5px 0px; vertical-align: top; text-align: center;vertical-align: middle;}
+    .fancy_table tr:first-child {font-weight: bold;text-align: center; position: sticky; top: 0; background-color: white;border-bottom: 2px solid black;}
+    .fancy_table .left {text-align: left; font-weight: bold;}
+    .fancy_table .chart {width: 50%; text-align: right;}
+    .fancy_table tr {font-size: 12px;}
+    .fancy_table tbody{display:block;overflow: auto; height: 600px;}
+    .axisX text{
+        fill: #999;
+        }  

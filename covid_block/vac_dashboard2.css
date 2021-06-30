@@ -1,0 +1,25 @@
+#corona {margin: 0 auto;margin-bottom: 20px;font-family: 'roboto',sans-serif;}
+    #corona_head {font-size: 21px; font-weight: bold;  color: #000000;}
+    #corona_head a {text-decoration: none; color: black; border-bottom: 0px}
+    .grey_text {font-size: 14px;color: #868686;}
+    .grey_text a {text-decoration: none; color: #868686;border-bottom: 1px solid #868686;}
+    .grey_text a:hover {border-bottom: 1px solid black; color:black;}
+    .corona_wrapper{display: grid;grid-template-columns: repeat(3, 1fr);justify-content: center;align-content: center;}
+    .corona_wrapper .coronatable0 {padding: 0 15px 0 0px;}
+    .corona_wrapper .coronatable1 {padding: 0 15px;border-left: 1px solid #e2e2e2;}
+    .corona_wrapper table {font-size: 12px; width: 100%; color: black}
+    .corona_wrapper table .tableeleft {text-align: left;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+    .corona_wrapper table td {text-align: center; padding: 3px 0px}
+    .corona_wrapper table .td_bold {font-weight: bold; font-size: 14px; width: 25%;}
+    .corona_wrapper table .td_normal {font-size: 14px;}
+    .progress_bar {height: 15px; background-color: rgb(229,245,249); width: 85%; position: relative; margin: 0 auto;}
+    .corona_wrapper a {text-decoration: none; color: #868686;}
+    #ukraine_confirmed {max-width: 200px;margin: 0 auto;}
+    @media(max-width: 792px) {
+        .regional_map {display: none;}
+        .corona_wrapper{display: grid;grid-template-columns: repeat(2, 1fr);}
+    }
+    @media(max-width: 670px) {
+        .which_vac {display: none;}
+        .corona_wrapper{display: grid;grid-template-columns: repeat(1, 1fr);}
+    }

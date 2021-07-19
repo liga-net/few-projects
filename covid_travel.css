@@ -1,0 +1,39 @@
+.results {max-width: 600px; margin: 0 auto;}
+        #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top: 20px; 
+}
+#typeForm {margin-top: 20px; margin-bottom: 10px;}
+#countries {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 380px;
+  overflow: scroll;
+    overflow-x: hidden;
+    padding-left: 0px!important;
+}
+
+#countries li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#countries li:hover:not(.header) {
+  background-color: #eee;
+  cursor: pointer;
+}
+#country_info {margin-top: 20px;}

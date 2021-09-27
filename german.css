@@ -1,0 +1,21 @@
+#vis {
+    max-width: 600px;
+    margin: 0 auto;
+}
+    
+svg .seat.SPD { fill: #BE232E; }
+svg .seat.HDS { fill: #000000; }
+svg .seat.ZEL { fill: #6DA600; }
+svg .seat.VDP { fill: #F0C810; }
+svg .seat.AFD { fill: #2A8FC6; }
+svg .seat.LEFT { fill: #CE368D; }
+svg .seat.Other { fill: lightgrey; }
+.parties,.dot_parties {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, .5fr);
+    grid-column-gap: 5px;
+    font-family: 'sans-serif';
+}
+.dot_party, .party {background-color: #f5f5f5;text-align: center;border-radius: 3px;}

@@ -1,0 +1,4 @@
+.many {max-width: 600px;margin: 0 auto;display: grid;grid-template-columns: repeat(3, .5fr);grid-column-gap: 5px;font-family: 'sans-serif';}
+@media(max-width:600px) {
+    .many {grid-template-columns: repeat(2, .5fr);}
+}

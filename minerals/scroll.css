@@ -1,0 +1,81 @@
+#container{
+    position: relative;
+    line-height: 1.6
+  }
+  
+  #sections{
+    width: 340px;
+  }
+  
+  #sections > div{
+    z-index: 99;
+    position: relative;
+    background: transparent;
+    transition: all .5s linear;
+    padding: 70vh 0 7vh 0;
+  }
+  #sections p {
+      background: #fff;
+      border-radius: 4px;
+      padding: 15px;
+      box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.04);
+      font-size: 14px;
+  }
+  #sections h3 {
+      background: #fff;
+      padding: 15px;
+  }
+  #sections > div:last-child{
+    margin-bottom: 30px;
+  }
+  #sections > div.graph-scroll-active{
+    opacity: 1;
+  }
+  
+  #graph,#graph1{
+    width: 800px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    float: right;
+    z-index: 1;
+  }
+  #graph_text {text-align: center;}
+  
+  @media (max-width: 925px)  {
+    #graph,#graph1 {
+      width: 100%;
+      margin-left: 0px;
+      float: none;
+      top: 80px;
+    }
+  
+    #sections{
+      width: auto;
+      position: relative;
+      margin: 0px auto;
+    }
+  
+    #sections > div{
+      padding: 10px;
+      margin-bottom: 80vh;
+      height: 100%;
+    }
+  }
+  
+  .simple_container {max-width: 600px; margin: 0 auto; line-height: 1.6; font-size: 14px;padding: 0px 10px;}
+  .simple_container h1 {font-weight: 400;
+      font-size: 2.125em;
+      line-height: 2.5rem;
+      margin: 17px auto 21px;
+      text-align: center;
+  }
+  a {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+      border-bottom: 1px solid black;
+  }
+  .time {font-size: 12px}
+  .annotation-note-title {text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;}
+  .news_links {padding: 0px 15px; font-style: italic; font-size: .8em}

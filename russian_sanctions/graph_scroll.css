@@ -1,0 +1,50 @@
+#scroll-container{
+    position: relative;
+  }
+  
+  #scroll-sections{
+    width: 340px;
+  }
+  
+  #scroll-sections > div{
+    background: white;
+    margin-bottom: 200px;
+  }
+  #scroll-sections > div:last-child{
+    margin-bottom: 30px;
+  }
+  #scroll-sections > div.graph-scroll-active{
+    opacity: 1;
+  }
+  
+  #graph{
+    margin-left: 40px;
+    width: 500px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    float: right;
+  }
+  
+  @media (max-width: 925px)  {
+    #graph{
+      width: 100%;
+      margin-left: 0px;
+      float: none;
+    }
+  
+    #scroll-sections{
+      width: auto;
+      position: relative;
+      margin: 0px auto;
+    }
+  
+    #scroll-sections > div{
+      background: rgba(255,255,255,.5);
+      padding: 10px;
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      margin-bottom: 80vh;
+    }
+  
+  }

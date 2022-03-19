@@ -1,9 +1,0 @@
-#war {margin: 0 auto;margin-bottom: 20px;font-family: 'roboto',sans-serif;}
-    #war_head {font-size: 21px; font-weight: bold;  color: #000000;}
-    .war_wrapper {display: block; overflow-x: auto; margin-top: 10px; max-width: 100%; height: 108px;white-space: nowrap;}
-    .war_wrapper .war_block {display: inline-block; text-align: center; width: 100px; vertical-align: top;}
-    .war_icon {max-width: 50px; }
-    .td_bold {font-weight: bold; font-size: 14px; }
-    .td_bold_red {font-weight: bold; font-size: 12px; color: #DF0027;margin-top: 3px;}
-    .tableeleft {font-size: 12px; margin-top: 3px; }
-    .grey_text {font-size: 14px;color: #868686;}

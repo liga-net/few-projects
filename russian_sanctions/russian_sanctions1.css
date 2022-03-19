@@ -1,0 +1,66 @@
+.wf-active body {overflow-y: initial!important;}
+body {overflow-x: initial!important;}
+#scrolly {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#scrolly>* {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly article {
+    position: relative;
+    padding: 0 1rem 0 0;
+    max-width: 20rem;
+    
+}
+
+#scrolly figure {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    background-color: #004d40;
+    z-index: 0;
+}
+
+#scrolly figure p {
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#scrolly .step {
+    margin: 0 auto 2rem auto;
+    border-bottom: 5px solid #004d40;
+    
+}
+
+#scrolly .step:last-child {
+    margin-bottom: 0;
+}
+
+#scrolly .step p {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 16px;
+}
